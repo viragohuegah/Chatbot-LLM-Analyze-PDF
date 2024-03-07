@@ -4,10 +4,10 @@
 
 We will creating PDF Analyzer Chatbot  
 Light Mode:
-<center> <img src="/build_chatbot_for_your_data/preview/preview_light.png"> </center>
+<center><img src="/build_chatbot_for_your_data/preview/preview_light.png"></center>
 
 Dark Mode:
-<center> <img src="/build_chatbot_for_your_data/preview/preview_dark.png"> </center>
+<center><img src="/build_chatbot_for_your_data/preview/preview_dark.png"></center>
 
 
 
