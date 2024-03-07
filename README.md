@@ -51,7 +51,7 @@ pip install -r requirements.txt
 <a name="usage"></a>
 
 ## Usage
-You can run each of the program by using the command below. For better GUI run on port `8000`. Don't forget to insert your API Key.
+You can run each of the program by using the command below. Click the link to navigate and run on port `8000`. Don't forget to insert your API Key.
 
 ```bash
 python3 server.py
