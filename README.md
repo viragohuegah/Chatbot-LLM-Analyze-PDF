@@ -16,7 +16,7 @@ We will creating PDF Analyzer Chatbot
 5. [Structure](#structure)
 6. [Project Status](#project-status)
 7. [Instructors](#instructors)
-
+8. [Authors](#authors)
 
 <a name="mentee-info"></a>
 ## Mentee Info
@@ -28,17 +28,11 @@ We will creating PDF Analyzer Chatbot
 
 <a name="technology"></a>
 ## Technology
-- `python`
-- `langchain`
-- `langchain_openai` 
-- `gradio`
-- `chromadb`
-- `tiktoken`
-- `huggingface_hub`
-- `wget`
-- `pysqlite3-binary`
-- `numexpr`
-- `langchain_experimental`
+- `python3`
+- `flask`
+- `HTML`
+- `CSS`
+- `JavaScript`
 
 
 <a name="setup"></a>
@@ -54,72 +48,39 @@ source my_env/bin/activate
 <a name="usage"></a>
 
 ## Usage
-You can run each of the program by using the command below. For better GUI run on `Public URL`. Don't forget to insert your API Key.
+You can run each of the program by using the command below. For better GUI run on port `8000`. Don't forget to insert your API Key.
 
-- Simple Chatbot
 ```bash
-python simple_llm.py
-```
-- Cover Letter Chatbot
-```bash
-python prompt_with_template.py
+python3 server.py
 ```
 
-exercise output step by step,
-```bash
-python exercise_prompt_step_by_step.py
-```
-
-- Customer Support Bot
-```bash
-python chain_customerSupport.py
-```
-
-- Summarizer Chatbot
-```bash
-python summarizer.py
-```
-
-- Friend Chatbot
-```bash
-python memory.py
-```
-
-- Python Code Writer Bot
-```bash
-python coderunner.py
-```
 
 <a name="structure"></a>
 ## Structure
 ```bash
 .
+├── Dockerfile
 ├── README.md
-├── chain_customerSupport.py
-├── coderunner.py
-├── exercise_prompt_step_by_step.py
-├── flagged
-│   └── log.csv
-├── hello.py
-├── memory.py
+├── __pycache__
+│   └── worker.cpython-310.pyc
 ├── my_env
 │   ├── bin
 │   ├── include
 │   ├── lib
 │   ├── pyvenv.cfg
 │   └── share
-├── pembukaanUUD1945.txt
-├── preview_chatbot
-│   ├── preview_coderunner.png
-│   ├── preview_coverletter.png
-│   ├── preview_customersupport.png
-│   ├── preview_excercise.png
-│   ├── preview_friend_chatbot.png
-│   ├── preview_simple_chatbot.png
-│   └── preview_summarizer.png
-├── prompt_with_template.py
-├── simple_llm.py
-└── summarizer.py
+├── preview
+│   ├── preview_dark.png
+│   └── preview_light.png
+├── requirements.txt
+├── server.py
+├── server_exercise.py
+├── static
+│   ├── script.js
+│   └── style.css
+├── templates
+│   └── index.html
+└── worker.py
 
 ```
 
@@ -129,4 +90,8 @@ Project is: _complete_
 
 <a name="instructors"></a>
 ## Instructors
-- [@Ichsan Takwa](https://github.com/Ichsan-Takwa)
+- [@Arifian Saputra](https://github.com/arifian853)
+
+<a name="authors"></a>
+## Authors
+- [@Sina Nazeri](https://github.com/sinanazeri)
